@@ -16,7 +16,7 @@ To <u>serialize</u> an object, just call <code>whmJSON.Serialize(object: <b>your
 This will return a <code>data</code> object that you can cast to a string or send directly to an HTTP post.
 <br>
 <br>
-To <u>deserialize</u> into an object, just call <code>var deserializedObjects: [<b>myObjectType</b>] = whmJSON.Deserializep&#60;<b>myObjectType</b>&#62;(data: <b>yourData</b>)</code>
+To <u>deserialize</u> into an object, just call <code>var deserializedObjects: [<b>myObjectType</b>] = whmJSON.Deserialize(data: <b>yourData</b>)</code>
 <br>
 This will return a <code>list</code> of your objects from the JSON (if you have a single JSON string, still pass it as a list with 1 element)
 <br>
