@@ -12,6 +12,8 @@
 		9DD503D81DBD4B8C00DE4F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD503D61DBD4B8C00DE4F66 /* Main.storyboard */; };
 		9DD503DA1DBD4B8C00DE4F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD503D91DBD4B8C00DE4F66 /* Assets.xcassets */; };
 		9DD503DD1DBD4B8C00DE4F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD503DB1DBD4B8C00DE4F66 /* LaunchScreen.storyboard */; };
+		9DD503E51DBD4B9C00DE4F66 /* whmJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD503E41DBD4B9C00DE4F66 /* whmJSON.swift */; };
+		9DD503E71DBD4BA200DE4F66 /* testClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD503E61DBD4BA200DE4F66 /* testClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9DD503D91DBD4B8C00DE4F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD503DC1DBD4B8C00DE4F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DD503DE1DBD4B8C00DE4F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD503E41DBD4B9C00DE4F66 /* whmJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = whmJSON.swift; sourceTree = "<group>"; };
+		9DD503E61DBD4BA200DE4F66 /* testClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		9DD503D11DBD4B8C00DE4F66 /* whmJSON */ = {
 			isa = PBXGroup;
 			children = (
+				9DD503E41DBD4B9C00DE4F66 /* whmJSON.swift */,
+				9DD503E61DBD4BA200DE4F66 /* testClass.swift */,
 				9DD503D21DBD4B8C00DE4F66 /* AppDelegate.swift */,
 				9DD503D41DBD4B8C00DE4F66 /* ViewController.swift */,
 				9DD503D61DBD4B8C00DE4F66 /* Main.storyboard */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DD503E71DBD4BA200DE4F66 /* testClass.swift in Sources */,
 				9DD503D51DBD4B8C00DE4F66 /* ViewController.swift in Sources */,
+				9DD503E51DBD4B9C00DE4F66 /* whmJSON.swift in Sources */,
 				9DD503D31DBD4B8C00DE4F66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
