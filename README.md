@@ -1,6 +1,6 @@
-<b><h1>whmJSON</h1></b>
-<a href="mailto:tyler.r.burnam.19@dartmouth.edu?SUBJECT=About%20whmJSON"><img src="https://img.shields.io/badge/email-tyler.r.burnam.19@dartmouth.edu-blue.svg?style=flat" alt="eMail" data-canonical-src="https://img.shields.io/badge/email-tyler.r.burnam.19@dartmouth.edu-blue.svg?style=flat" style="max-width:100%;"></a> <a href="https://www.linkedin.com/in/tylerburnam"><img src="https://img.shields.io/badge/LinkedIn-Tyler%20Burnam-blue.svg?style=flat" alt="eMail" data-canonical-src="https://img.shields.io/badge/LinkedIn-Tyler%20Burnam-blue.svg?style=flat" style="max-width:100%;"></a>
+## whmJSON
 
+I wrote this library back when I used to think that md files only took HTML (see this readme's source) and had no idea that CocoaPods existed. CocoaPods very much existed and markdown is like this whole thing, so please, if you are in search of a JSON serializer, visit: [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 
 <p><code>whmJSON</code> is an open source JSON library for <b>Swift 3+</b>. It currently supports serialization/deserialization for any object with primitive properties. Full support coming soon.</p>
 
@@ -21,6 +21,6 @@ To <u>deserialize</u> into an object, just call <code>var deserializedObjects: [
 This will return a <code>list</code> of your objects from the JSON (if you have a single JSON string, still pass it as a list with 1 element)
 <br>
 <br>
-Under active development
+<del>Under active development</del>
 <br>
 Please feel free to help
